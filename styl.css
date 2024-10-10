@@ -1,7 +1,7 @@
 body {
     background-color: #EEEEEE;
     font-style: Helvetica;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .container {
@@ -47,12 +47,12 @@ ul>li {
 
 }
 
-a:link {
+li>a:link {
     text-decoration: none;
   }
 main>article {
     width: 80%;
-    height: 25%;
+    height: 20%;
     background-color: lightgray;
     border-radius: 20px;
     display: flex;
@@ -63,9 +63,24 @@ main>article {
     border: 3px solid black;
 }
 
+main>div {
+    background-color: lightgray;
+    padding: 30px;
+    height: 300px;
+    width: 60%;
+    border: 3px solid black;
+}
+
+aside>div {
+    background-color: lightgray;
+    padding: 30px;
+    height: 300px;
+    width: 80%;
+    border: 3px solid black;
+}
 
 main {
-    background-color: white;
+    background-color: lightblue;
     width: 70%;
     height: 65%;
     display: flex;
@@ -75,7 +90,7 @@ main {
 }
 
 aside {
-    background-color: white;
+    background-color: lightblue;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -97,6 +112,9 @@ aside>article {
     border: 3px solid black;
 }
 
+article>p {
+    padding: 10px;
+}
 
 footer {
     text-align: right;
@@ -106,4 +124,5 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
